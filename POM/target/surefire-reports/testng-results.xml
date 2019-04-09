@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="58638" started-at="2019-03-24T12:29:41Z" finished-at="2019-03-24T12:30:40Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.yalla.testcases.TC002_CreateLead@3e6fa38a]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="58638" started-at="2019-03-24T12:29:41Z" finished-at="2019-03-24T12:30:40Z">
+      <class name="com.yalla.testcases.TC002_CreateLead">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.yalla.testcases.TC002_CreateLead@3e6fa38a]" name="startReport" is-config="true" duration-ms="1362" started-at="2019-03-24T12:29:40Z" finished-at="2019-03-24T12:29:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.yalla.testcases.TC002_CreateLead@3e6fa38a]" name="setData" is-config="true" duration-ms="1" started-at="2019-03-24T12:29:41Z" finished-at="2019-03-24T12:29:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.yalla.testcases.TC002_CreateLead@3e6fa38a]" name="setUpClass" is-config="true" duration-ms="419" started-at="2019-03-24T12:29:41Z" finished-at="2019-03-24T12:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.yalla.testcases.TC002_CreateLead@3e6fa38a]" name="report" is-config="true" duration-ms="18" started-at="2019-03-24T12:29:42Z" finished-at="2019-03-24T12:29:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.yalla.testcases.TC002_CreateLead@3e6fa38a]" name="beforeMethod" is-config="true" duration-ms="8102" started-at="2019-03-24T12:29:44Z" finished-at="2019-03-24T12:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginAndLogout(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.yalla.testcases.TC002_CreateLead@3e6fa38a]" name="loginAndLogout" duration-ms="18913" started-at="2019-03-24T12:29:52Z" data-provider="fetchData" finished-at="2019-03-24T12:30:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hexacorp]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Keerthana]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Ramesh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndLogout -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.yalla.testcases.TC002_CreateLead@3e6fa38a]" name="afterMethod" is-config="true" duration-ms="2160" started-at="2019-03-24T12:30:11Z" finished-at="2019-03-24T12:30:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.yalla.testcases.TC002_CreateLead@3e6fa38a]" name="beforeMethod" is-config="true" duration-ms="5794" started-at="2019-03-24T12:30:13Z" finished-at="2019-03-24T12:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginAndLogout(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.yalla.testcases.TC002_CreateLead@3e6fa38a]" name="loginAndLogout" duration-ms="18595" started-at="2019-03-24T12:30:19Z" data-provider="fetchData" finished-at="2019-03-24T12:30:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[democsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hexacorp]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Manoj]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndLogout -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.yalla.testcases.TC002_CreateLead@3e6fa38a]" name="afterMethod" is-config="true" duration-ms="2124" started-at="2019-03-24T12:30:38Z" finished-at="2019-03-24T12:30:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.yalla.testcases.TC002_CreateLead@3e6fa38a]" name="tearDownClass" is-config="true" duration-ms="10" started-at="2019-03-24T12:30:40Z" finished-at="2019-03-24T12:30:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.yalla.testcases.TC002_CreateLead@3e6fa38a]" name="stopReport" is-config="true" duration-ms="950" started-at="2019-03-24T12:30:40Z" finished-at="2019-03-24T12:30:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- com.yalla.testcases.TC002_CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
