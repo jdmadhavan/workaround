@@ -1,41 +1,45 @@
 package classRoompractise;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Scripplig_practice {
+public static void main(String[] args) {
+	
 
 
-		/*System.setProperty("webdriver.chrome.driver", "./drivers/Chromedriver/chromedriver.exe");
-		ChromeDriver driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		
-		//driver.get("http://jqueryui.com/draggable/");
-		driver.get("http://www.leafground.com/pages/radio.html");
-		if(driver.findElementByName("news").isSelected());
-		{
-			driver.findElementByXPath("//input[@value='1']").click();
-		}
-		
-		System.out.println("Done");
-		*/
-		
+	System.setProperty("webdriver.chrome.driver","./drivers/Chromedriver/chromedriver.exe");
+	ChromeDriver d1 = new ChromeDriver();
+	 d1.get("https://www.google.co.in/");
+     d1.findElement(By.xpath("//input[@class='gLFyf gsfi']")).sendKeys("testing");
+     List<WebElement> findElements = d1.findElements(By.xpath("//li[@class='sbct']"));
+
+for (int i = 0; i < findElements.size(); i++) {
+	
+	System.out.println(findElements.get(i).getText());
+	
+}
+  
+     
 
 			
-			public static void main(String args[]){
+			/*public static void main(String args[]){
 				
 					
 					int i = 5, j = 2;
 					System.out.println( i % j );
 					}
 					}
-				
+				*/
 			
 
 
-
+}
+}
 
 
 
