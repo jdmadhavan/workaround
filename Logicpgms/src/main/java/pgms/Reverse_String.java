@@ -1,6 +1,6 @@
 package pgms;
 
-public class reverse_String {
+public class Reverse_String {
 	
 private static StringBuffer reverse;
 
