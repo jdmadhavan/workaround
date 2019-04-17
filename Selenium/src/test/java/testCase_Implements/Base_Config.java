@@ -1,11 +1,8 @@
 package testCase_Implements;
 
+import org.openqa.selenium.chrome.ChromeDriver;
 
+public class Base_Config  {
+public static ChromeDriver driver;
 
-public class Base_Config extends TestCase_Implements {
-
- public void close_Browser()
- {
-	 driver.close();
- }
 }

@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="week5.day1.Learningtestng.Edit_Lead">
+      <class name="runner.Start_Runner">
         <methods>
-          <include name="edit_Lead"/>
-          <include name="login_Confiquaration"/>
-          <include name="close"/>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- week5.day1.Learningtestng.Edit_Lead -->
+      </class> <!-- runner.Start_Runner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
