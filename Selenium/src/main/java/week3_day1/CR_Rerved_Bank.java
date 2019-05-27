@@ -5,5 +5,6 @@ public interface CR_Rerved_Bank {
 	int i=10;
 	public void setTransactionLimits();
 	public void setKYCDocuments();
+	//public void setKYCDocuments2();
 
 }

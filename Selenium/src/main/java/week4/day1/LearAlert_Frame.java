@@ -17,6 +17,7 @@ public class LearAlert_Frame {
 		driver.get("https://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt");
 		
 		driver.switchTo().frame("iframeResult");
+		
 		driver.findElementByXPath("//button[text()='Try it']").click();
 		Alert alert = driver.switchTo().alert();
 		alert.sendKeys("Madhavan");

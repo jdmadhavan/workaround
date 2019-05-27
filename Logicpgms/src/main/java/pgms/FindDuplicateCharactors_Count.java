@@ -7,7 +7,7 @@ import java.util.Map;
 public class FindDuplicateCharactors_Count {
 
 	public static void main(String[] args) {
-		String value="Partha Sarathi";
+		String value="madhavan Ram";
 		char[] charValue=value.toCharArray();
 		
 		Map<Character, Integer> obej=new HashMap<Character,Integer>();

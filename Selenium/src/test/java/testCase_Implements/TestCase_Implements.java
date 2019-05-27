@@ -30,6 +30,7 @@ public class TestCase_Implements extends Base_Config {
 	}
 
 	@And("Set Timeout")
+	//@And("Click Link CRMFA")
 	public void setTimeOut()
 	{
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);

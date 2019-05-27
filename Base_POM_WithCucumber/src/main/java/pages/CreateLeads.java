@@ -10,7 +10,7 @@ public class CreateLeads extends Base_Config{
 		
 	}
 	
-	
+
 	public CreateLeads enterCompanyName(String cname)
 	{
 		driver.findElementById("createLeadForm_companyName").sendKeys(cname);

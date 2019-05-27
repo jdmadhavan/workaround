@@ -1,6 +1,6 @@
 package week3_day1;
 
-public class CR_Bank implements CR_Rerved_Bank,CR_Cibil {
+public abstract class CR_Bank implements CR_Rerved_Bank,CR_Cibil {
 	
 	
 	

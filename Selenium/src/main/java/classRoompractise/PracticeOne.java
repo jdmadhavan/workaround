@@ -50,6 +50,7 @@ public class PracticeOne {
 
 			String getTheStringValue= getAllStringValue.get(i).getText(); 
 			saveReplacedvalue=getTheStringValue.replace("%", "");
+			
 			int parsedvalue = Integer.parseInt(saveReplacedvalue);
 			covertedArravalue[i]=parsedvalue;	 
 

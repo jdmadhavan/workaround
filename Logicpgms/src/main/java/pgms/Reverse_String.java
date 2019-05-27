@@ -2,13 +2,15 @@ package pgms;
 
 public class Reverse_String {
 	
-private static StringBuffer reverse;
+
 
 public static void main(String[] args) {
 	//String builder 
-	StringBuilder reverse1 = new StringBuilder();
+	
 	String str="madhavan ramalingam $";
-	//String str="12345 787";
+	StringBuilder reverse1 = new StringBuilder(str);
+	System.out.println(reverse1.reverse());
+	System.out.println("get reverse 1"+reverse1);
 	// System.out.println(str.length());
 	
 	System.out.println(str.replaceAll("\\d", ""));
@@ -27,8 +29,9 @@ public static void main(String[] args) {
 	
 	
 	//reverse string using string buffer
-	reverse = new StringBuffer(str).reverse();
-	System.out.println(reverse);
+	StringBuffer reverse = new StringBuffer(str);
+	reverse.reverse();
+	System.out.println("Rev"+reverse);
 	
     
 	

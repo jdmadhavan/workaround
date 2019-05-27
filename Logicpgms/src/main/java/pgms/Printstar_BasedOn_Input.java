@@ -12,7 +12,7 @@ public class Printstar_BasedOn_Input {
 			{
 				System.out.print("*");
 			}
-			System.out.println(" ");
+			System.out.println("");
 		}
 	}
 	

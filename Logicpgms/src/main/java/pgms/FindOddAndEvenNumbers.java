@@ -13,6 +13,7 @@ public class FindOddAndEvenNumbers {
 			if(value[i]%2!=0)
 			{
 				System.out.println("The Number is Odd: "+ value[i]);
+				
 			}
 			else {
 				System.out.println("The Number is Even: "+ value[i]);

@@ -4,7 +4,7 @@ public class Checking_Alphabet_Numbers {
 
 	
 	public static void main(String[] args) {
-		String value="*12madhavan4*";
+/*		String value="*12madhavan4*";
 		
 		String sout="";
 		String  iout="";
@@ -29,6 +29,16 @@ public class Checking_Alphabet_Numbers {
 		System.out.println("sout: "+sout);
 		System.out.println("iout: "+iout);
 		System.out.println("spcl: "+spcl);
+		*/
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		

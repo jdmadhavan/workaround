@@ -3,8 +3,8 @@ package pgms;
 public class Swap_TwoNumbers {
 
 	public static void main(String[] args) {
-		int x=10;
-		int y=20;
+		int x=10,y=30;
+		
 		
 		System.out.println("Before X: "+x);
 		System.out.println("Before X: "+y);
@@ -14,6 +14,15 @@ public class Swap_TwoNumbers {
 		
 		System.out.println("After X: "+x);
 		System.out.println("After y: "+y);
+		
+		
+		int z=x+y;
+		x=z-x;
+		y=z-y;
+		System.out.println("After X: "+x);
+		System.out.println("After y: "+y);
+		
+		
 	}
 
 }

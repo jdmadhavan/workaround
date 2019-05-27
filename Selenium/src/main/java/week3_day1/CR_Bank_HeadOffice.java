@@ -1,7 +1,7 @@
 package week3_day1;
 
 public abstract class CR_Bank_HeadOffice implements CR_Rerved_Bank {
-	int j=5;
+	int j;
 	public void setKYCDocuments()
 			
 	{

@@ -16,14 +16,17 @@ public class PractiseTwo {
 		System.setProperty("webdriver.chrome.driver", "./drivers/Chromedriver/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
 		driver.get("http://jqueryui.com/draggable/");
 
 		driver.switchTo().frame(0);
 		WebElement drag = driver.findElementById("draggable");
 		int x = drag.getLocation().getX();
 		int y =drag.getLocation().getY();
+	     
 		Actions builder=new Actions(driver);
 		builder.dragAndDropBy(drag, 100, 100).perform();
+		
 
 
 

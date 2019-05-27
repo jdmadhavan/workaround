@@ -8,7 +8,7 @@ import java.util.List;
 public class Find_Max_Min {
 
 	public static void main(String[] args) {
-		int[] values={11,13,3,7,18,8,9};
+		int[] values={11,13,3,7,18,23,8,9};
 		int size=values.length;
 		
 		Arrays.sort(values);
